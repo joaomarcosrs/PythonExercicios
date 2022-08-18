@@ -1,0 +1,89 @@
+Aula 07 - Operadores Aritméticos
+Ordem de precedência
+        1º: ()
+        2º: **
+        3º: *, /, //, %
+        4º: +, -
+
+    Obs: // é a divisão inteira
+         % é o resto ou módulo da divisão
+    pow() é uma função de potência, exemplo pow(4, 3)
+
+    É possível definir a quantida de caracteres que irão aparecer no espaço {} no uso do .format()
+    ':20' significa que terá 20 caracteres
+    '<' O sinal de menor indica que estará alinhado à esquerda
+    '>' O sinal de maior indica que estará alinhado à direita
+    '^' O acento circunfleco indicara que ficara centralizado
+    '=^20' é um exemplo que colocará vinte '=' até completar os 20 caracteres
+    ':.3f' o argumento diz que aparecerá apenas três casas após a vírgula
+
+    o commando end='' serve para não quebrar a linha no final da função print()
+
+Aula 08 - Utilizando Módulos
+
+    Sintaxe import:
+    import biblioteca
+    from biblioteca import método, método
+
+    Bibliotecas padrão
+        math
+            ceil - arredonda número pra cima
+            floor - arredonda número pra baixo
+            trunc -  vai truncar o número, eliminar tudo depois da vírgula
+            pow - potencia
+            sqrt - raiz quadrada
+            factorial - fatorial
+
+    Caso importe a biblioteca toda tem-se que usar a sintaxe
+        biblioteca.método
+    Caso importe apenas o método que vai ser usado a sintaxe usada é apenas o módulo
+        método()
+
+Aula 09 - Manipulando Texto
+
+Manipulando Cadeias de Texto
+
+    Uma frase é uma cadeia de caracteres e para o python toda cadeia de caracteres está em aspas duplas ou simples.
+    Algumas linguagens de programação, inclusive o python, alocam cada caracteres em um subespaço de cada espaço da memória.
+
+    Fatiamento: é conseguir pegar pedaços da cadeia de caracteres (string)
+    Obs: no range o último nunca entra
+    Ex. Fatiamento frase [primeiro: ultimo: salto]
+
+    Análise: é saber algumas informações como tamanho, forma etc.
+    Comandos:
+        len(frase): mostra o comprimento da string
+        frase.count('o'): Conta quantos vezes aparece a  letra 'o'.
+        frase.count('o', 0, 13): Conta a quantidade de letras 'o', comum fatiamento
+        frase.find('deo'): Indica a posição no subespaço da memória em que começa a sequência 'deo'
+        Operador in,
+            Exemplo: 'Curso' in frase
+                Esse operador reorna um valor booleano (Verdadeiro ou Falso)
+
+    Transformação: Uma cadeia de caracteres é imutável e eu só consigo modificar-la, através de métodos.
+        frase.replace('Python', 'Android'): Procura pela palavra Python e substitui por Android
+        fraase.upper(): Transformar todas as letras em maiúsculas
+        frase.lower(): é ocontrário de upper
+        frase.capitalize(): Vai pegar todos os carecteres e transformar em minúsculas, com exceção da primeira letra da string
+        frase.title(): Vai analisar todas as palavras e fazer o capitalize em todas as palavras
+        frase.strip(): remove todos os espaços no início e final da string, passando o primeiro caractere para a posição 0.
+        frase.rstrip(): remove apenas os espaços à direita.
+        frase.lstrip(): remove os espaços à esquerda
+
+    Divisão
+        frase.split(): Por padrão o split é feito nos espaços, basicamente separa as palavras por espaço e alocar em memórias diferentes, ou seja nova listas.
+
+    Junção
+        '-'.join(frase): junta todos os elemntos de frase e vai usar um separador '-'.
+
+
+
+Adendo: Usar 3 aspas pra abrir e fechar.
+
+Adendo2:  não é possível fazer o replace de uma única letra específica, para isso é necessário usar um método de concatenação com a parte restante da string. Exemplo:
+
+frase = ('Curso em Vídeo de Python')
+new_frase = frase[:2] + 'm' + frase[3:]
+print(new_frase)
+
+saída: Cumso em Vídeo de Python
