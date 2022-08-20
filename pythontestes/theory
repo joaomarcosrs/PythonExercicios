@@ -87,3 +87,17 @@ new_frase = frase[:2] + 'm' + frase[3:]
 print(new_frase)
 
 saída: Cumso em Vídeo de Python
+
+
+Aula 10 - Condições (Parte 01)
+
+    Estrutura IF
+        if comando():
+            bloco True
+        else:
+            bloco False
+
+    Condição simplificada
+        Exemplo:
+            print('carro novo' if tempo<=3 else 'carro velho')
+
