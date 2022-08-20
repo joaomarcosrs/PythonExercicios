@@ -13,7 +13,7 @@ Ordem de precedência
     ':20' significa que terá 20 caracteres
     '<' O sinal de menor indica que estará alinhado à esquerda
     '>' O sinal de maior indica que estará alinhado à direita
-    '^' O acento circunfleco indicara que ficara centralizado
+    '^' O acento circunfleco indica que ficará centralizado
     '=^20' é um exemplo que colocará vinte '=' até completar os 20 caracteres
     ':.3f' o argumento diz que aparecerá apenas três casas após a vírgula
 
