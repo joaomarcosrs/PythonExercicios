@@ -101,3 +101,29 @@ Aula 10 - Condições (Parte 01)
         Exemplo:
             print('carro novo' if tempo<=3 else 'carro velho')
 
+
+Aula 11 - Cores no terminal
+
+    * Padrão ANSI
+        Sempre que quiser representar uma cor em python, começar com: \033[(estilo;texto;fundo)m
+        Adendo: os parênteses não fazem parte do código
+        Exemplo: \033[0;33;44m
+
+    Códigos:
+        Estilo: Existem outros, mas esses são os que funcionam melhor para o terminal
+            0 - none
+            1 - bold
+            4 - underline
+            7 - negative (inverter as configurações de cor do texto e fundo)
+
+        Texto: Todas as opçoes começam com 3
+            30 - branco
+            31 - vermelho
+            32 - verde
+            33 - amarelo
+            34 - azul
+            35 - lilás
+            36 - azul bebê
+            37 - cinza
+
+        Fundo: São as mesmas cores do texto, porém começam com 4.
