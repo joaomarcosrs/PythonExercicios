@@ -127,3 +127,17 @@ Aula 11 - Cores no terminal
             37 - cinza
 
         Fundo: São as mesmas cores do texto, porém começam com 4.
+
+
+Aula 12 - Condições Aninhadas
+
+    if comando():
+        bloco 01
+    elif comando():
+        bloco 02
+    elif comando():
+        bloco 03
+    else:
+        ultimo bloco
+
+    A estrutura do else é opcional.
