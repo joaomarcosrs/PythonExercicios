@@ -15,6 +15,7 @@ parcela = v_casa / meses
 #Condição de compra da casa
 cond_compra = v_salario * 1.30
 
+
 #A condição para empréstimo é que cada parcela exceda o salário em até 30%
 if parcela <= cond_compra:
     print('\nA quantidade de parcelas são (meses): {:>7}'
