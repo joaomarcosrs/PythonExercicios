@@ -13,7 +13,7 @@ meses = anos * 12
 #Calculo do valor da parcela
 parcela = v_casa / meses
 #Condição de compra da casa
-cond_compra = v_salario * 1.30
+cond_compra = v_salario * 0.30
 
 
 #A condição para empréstimo é que cada parcela exceda o salário em até 30%
