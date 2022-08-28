@@ -9,7 +9,7 @@ op = int(input('Digite a opção de conversão: '))
 print('\n')
 
 if op == 1:
-  print('O número convertido para Binário é: {}'.format(bin(numero)))
+  print('O número convertido para Binário é: {}'.format(format(numero, 'b')))
 elif op == 2:
   print('O número convertido para Octal é: {}'.format(format(numero, 'o')))
 else:
