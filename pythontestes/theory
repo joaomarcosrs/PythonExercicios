@@ -153,5 +153,5 @@ Aula 13 - Estrutura de repetição FOR
         Para fazer a contagem regressiva é só utilizar o comando:
         for c in range(6, 0, -1)
 
-        Obs: o comando -1 representa a itereção, nesse caso ele sempre vai tirar 1.
+        Obs: o comando -1 é o argumento para contar regressivamente, nesse caso ele sempre vai tirar 1.
 
