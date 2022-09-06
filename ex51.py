@@ -1,0 +1,1 @@
+pri_termo = int(input('Digite o primeiro termo da razão: '))
