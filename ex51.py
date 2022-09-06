@@ -3,7 +3,7 @@ razao = int(input('Digite a razão da progressão: '))
 pri_termo = termo
 print(
     f'\n{"="*40}\n'
-    f'{"Progressão Aritimética":^40}\n'
+    f'{"Progressão Aritmética":^40}\n'
     f'{"="*40}\n')
 
 
