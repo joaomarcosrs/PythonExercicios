@@ -63,7 +63,7 @@ Manipulando Cadeias de Texto
     Transformação: Uma cadeia de caracteres é imutável e eu só consigo modificar-la, através de métodos.
         frase.replace('Python', 'Android'): Procura pela palavra Python e substitui por Android
         fraase.upper(): Transformar todas as letras em maiúsculas
-        frase.lower(): é ocontrário de upper
+        frase.lower(): é o contrário de upper
         frase.capitalize(): Vai pegar todos os carecteres e transformar em minúsculas, com exceção da primeira letra da string
         frase.title(): Vai analisar todas as palavras e fazer o capitalize em todas as palavras
         frase.strip(): remove todos os espaços no início e final da string, passando o primeiro caractere para a posição 0.
