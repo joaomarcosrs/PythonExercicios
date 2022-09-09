@@ -1,4 +1,4 @@
-1from datetime import date
+from datetime import date
 
 lst_nome = []
 lst_ano_nasc = []
