@@ -155,3 +155,10 @@ Aula 13 - Estrutura de repetição FOR
 
         Obs: o comando -1 é o argumento para contar regressivamente, nesse caso ele sempre vai tirar 1.
 
+Aula 14 - Estrutura de repetição while
+
+    sintaxe:
+        while not apple:
+            passo
+        pega
+
