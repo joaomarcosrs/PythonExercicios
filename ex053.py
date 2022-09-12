@@ -13,4 +13,6 @@ else:
   print(f'A frase \033[1;31m{frase}\033[0m NÃO é um PALÍDROMO')
 
 
-#Usar o método reversed() seria mais eficiente.
+#Poderia ser usado o método reversed().
+#Poderia ser usado o fatiamento:
+#inv_palindromo = teste_palindromo[::-1]
