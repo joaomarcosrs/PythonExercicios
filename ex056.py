@@ -12,7 +12,7 @@ index_idade_fem = []
 for i in range(0, 4):
   nome = str(input('Digite o nome: ')).strip()
   idade = int(input('Digite a idade: '))
-  sexo = str(input('Digite o sexo (M) masculino e (F) feminino: ')).upper()
+  sexo = str(input('Digite o sexo (M/F): ')).upper()
   lst_nome.append(nome)
   lst_idade.append(idade)
   lst_sexo.append(sexo[:1]) #O append aqui é executado apenas na primeira letra do sexo
