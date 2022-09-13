@@ -16,7 +16,6 @@ while opcao != 5:
                       f'\n[4] NOVOS NÚMEROS'
                       f'\n[5] SAIR\n'))
     if opcao == 1:
-        # noinspection PyUnboundLocalVariable
         print(f'\nVocê escolheu a {opcao}ª opção.\n'
               f'A soma é: {num_pri} + {num_seg} = {num_pri + num_seg}')
     elif opcao == 2:
