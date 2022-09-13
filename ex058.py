@@ -17,4 +17,4 @@ while num_random != num_digit:
         print(f'Você ACERTOU, eu também escolhi {num_random}')
     else:
         print(f'Você errou, tente novamente...')
-print(f'Você precisou de {i} tentativas')
+print(f'Você precisou de {i} tentativa(s)')
