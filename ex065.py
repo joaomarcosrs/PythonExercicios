@@ -18,7 +18,7 @@ while cont != 'N':
     elif cont == 'S':
         erro = 'S'
 
-print(f'\nOs valores digitados foram:\n{" - ".join(lst_numero_strs)}\n'
+print(f'\nOs valores digitados foram:\n{" - ".join(lst_numero_str)}\n'
       f'\nA média dos valores é: \033[33m{mean(lst_numero)}\033[0m\n'
       f'O maior valor foi: \033[33m{max(lst_numero)}\033[0m\n'
       f'O maior valor foi: \033[33m{min(lst_numero)}\033[0m\n')
