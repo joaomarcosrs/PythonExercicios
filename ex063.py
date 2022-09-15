@@ -1,15 +1,21 @@
-numero = int(input('Digite um número inteiro: '))
-i = 0
-c = 1
-soma = 0
+print(f'{"-=-"*30}\n'
+      f'{"Sequência de Fibonacci":^90}\n'
+      f'{"-=-"*30}\n')
 
-while soma <= numero:
-    soma = i + c
-    n_soma = soma + c
-    c = n_soma
-    print(f'{soma}')
-# 1 = 0 + 1
-# 2 = 1 + 1
-# 3 = 2 + 1
-# 5 = 3 + 2
+numero = int(input('Quantos termos de Fibonacci você deseja ver? '))
 
+a = 0
+b = 1
+i = 3
+lst_fibo = []
+lst_fibo.append(str(a))
+lst_fibo.append(str(b))
+
+while i <= numero:
+    soma = a + b
+    lst_fibo.append(str(soma))
+    a = b
+    b = soma
+    i = i + 1
+print(f'\n{" ~ ".join(lst_fibo)}')    
+print('\nFIM')
