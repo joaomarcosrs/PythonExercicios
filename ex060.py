@@ -28,3 +28,5 @@ print(f'\nO cálcullo de {i}! é...\n'
 #       f'\n{numero}! = {" x ".join(lst_fatorial)} = {fatorial}')
 
 
+# Existe um módulo math com o método factorial()
+
