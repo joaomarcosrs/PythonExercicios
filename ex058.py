@@ -15,6 +15,8 @@ while num_random != num_digit:
     i = i + 1
     if num_random == num_digit:
         print(f'Você ACERTOU, eu também escolhi {num_random}')
+    elif num_random > num_digit:
+        print(f'Mais... Tente novamente')
     else:
-        print(f'Você errou, tente novamente...')
+        print(f'Menos... Tente novamente')
 print(f'Você precisou de {i} tentativa(s)')
