@@ -10,8 +10,7 @@ while cont != 'N':
         lst_numero.append(numero)
         lst_numero_str.append(str(numero))
 
-    cont = str(input('Você deseja continuar [S/N]?\n')).strip().upper()
-    cont = cont[:1]
+    cont = str(input('Você deseja continuar [S/N]?\n')).strip().upper()[:1]
     if cont != 'S' and cont != 'N':
         print(f'Digite [S] se deseja continuar ou [N] caso deseje parar')
         erro = cont
