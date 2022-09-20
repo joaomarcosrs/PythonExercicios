@@ -162,3 +162,12 @@ Aula 14 - Estrutura de repetição while
             passo
         pega
 
+Aula 15 – Interrompendo repetições while
+
+    sintaxe:
+        while True:
+            condição
+                comando
+            condição
+                comando
+                break -> serve para para a execução de um laço de repetição
