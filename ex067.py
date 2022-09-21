@@ -1,6 +1,5 @@
-numero = 0
-while numero >= 0:
-    numero = int(input('Deseja ver a tabuada de que valor? '))
+while True:
+    numero = int(input('\nDeseja ver a tabuada de que valor? '))
     if numero < 0:
         print('PROGRAMA ENCERRADO! Volte Sempre!')
         break
