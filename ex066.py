@@ -5,4 +5,4 @@ while True:
         break
     soma = soma + numero
     i = i + 1
-print(f'A soma dos {i} valores é {soma}')
+print(f'A soma dos {i} valores é {soma}!')
