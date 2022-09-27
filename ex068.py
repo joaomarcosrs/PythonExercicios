@@ -24,7 +24,7 @@ while True:
                   f'\nEscolha (P) para PAR ou (I) para ÍMPAR\n')
             palpite = 'False'
         else:
-            #caso as opções corretas sejam digitadas corretamente sai do laço
+            #caso as opções corretas sejam digitadas, a execução sai do laço
             break
     #gera-se um número aleatótio entre 0 e 10 para o palpite do computador
     computador = randint(0, 10)
