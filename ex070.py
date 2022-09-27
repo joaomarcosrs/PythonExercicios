@@ -7,7 +7,7 @@ print(f'\n{"-=-" * 15}\n'
       f'{"-=-" * 15}')
 while True:
   produto = str(input('\nNome do produto: ')).strip().capitalize()
-  preco =  str(input('Preço: ')).replace(',', '.')
+  preco =  str(input('Preço(R$): ')).replace(',', '.')
   lst_produto.append(produto)
   lst_preco.append(float(preco))
 
