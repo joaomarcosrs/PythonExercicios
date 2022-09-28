@@ -171,3 +171,32 @@ Aula 15 – Interrompendo repetições while
             condição
                 comando
                 break -> serve para para a execução de um laço de repetição
+
+
+-> VARIÁVEIS COMPOSTAS
+
+Aula 16 – Tuplas
+
+    Em python exitem 3 tipos de variáveis compostas:
+        * Tuplas
+        * Listas
+        * Dicionários
+
+    [-1] Índices negativos mostram os eleentos do final para o início, ou seja, -1 vai mostrar o último item da variável composta
+    [-2] Analogamente, -2 mostrará o penúltimo item, assim por diante
+
+    Alguns métodos já usados em exercícios, como len(), podem ser usados
+    Estruturas de repetição também são comunente usadas
+
+    Exemplo:
+    lanche = ('hamburguer', 'suco', 'pizza', 'pudim')
+    for c in lanche:
+        print(c)
+
+    ********* AS TUPLAS SÃO IMUTÁVEIS *********
+
+
+
+
+
+
