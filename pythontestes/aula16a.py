@@ -16,7 +16,7 @@ for i in range(0, len(lanche)):
   print(f'Eu vou comer {lanche[i]}')
 
 print('\n\n')
-for pos, comida in(enumerate(lanche)):
+for pos, comida in (enumerate(lanche)):
   print(f'Eu vou comer {comida} na posição {pos}')
 
 print('Comi pra caramba!')
