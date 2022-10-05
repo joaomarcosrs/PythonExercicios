@@ -10,6 +10,4 @@ for i in range(len(tpl_palavras)):
     for vogal in range(len(palavra)):
         if palavra[vogal] in 'aeiou':
             print(palavra[vogal], end=' ')
-
-        #   print({tpl_vogal[vogal]}, end=' ')
     print('')
