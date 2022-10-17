@@ -195,6 +195,26 @@ Aula 16 – Tuplas
 
     ********* AS TUPLAS SÃO IMUTÁVEIS *********
 
+Aula 17 – Listas (Parte 1)
+
+      Listas são mutáveis
+
+      Métodos e funções para listas:
+        * lista.append() - serve para adicionar novos itens na o final da lista
+        * lista.insert(posição, item) - Serve para adicionar um item em um espaço específico
+        * del lista[3] - deleta o item na posição 3 (NÃO É UM MÉTODO)
+        * lista.pop() - por padrão esse método apaga o último item da lista, porém pode definir uma posição específica para excluir
+        * lista.remove() - porém o método remove(), você não indica o índice, mas o item que deseja eliminar e reposiciona os índices
+        * lista.sort() - Ordena todos os valores em ordem crescente
+        * lista.sorte(reverse=True) - Ordena em ordem decrescente
+            ########### Existe a função sorted(), que basicamente faz a mesma coisa
+        * len(lista) - a função len retorna o tamanho da lista
+
+
+      É possível fazer uma lista com range, acredito eu tenha feito similar no exercício 74, porém foi utilizado o método randint em uma tupla.
+        valores = [list(range(4, 11))]
+
+
 
 
 
