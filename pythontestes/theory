@@ -205,6 +205,7 @@ Aula 17 – Listas (Parte 1)
         * del lista[3] - deleta o item na posição 3 (NÃO É UM MÉTODO)
         * lista.pop() - por padrão esse método apaga o último item da lista, porém pode definir uma posição específica para excluir
         * lista.remove() - porém o método remove(), você não indica o índice, mas o item que deseja eliminar e reposiciona os índices
+            - Caso seja setado um número par remover e exista mais do mesmo, ele remove apenas o prieiro.
         * lista.sort() - Ordena todos os valores em ordem crescente
         * lista.sorte(reverse=True) - Ordena em ordem decrescente
             ########### Existe a função sorted(), que basicamente faz a mesma coisa
