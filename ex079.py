@@ -1,5 +1,4 @@
 lst_numero = list()
-keep_loop = 'S'
 
 while True:
     numero = int(input('Digite um valor: '))
