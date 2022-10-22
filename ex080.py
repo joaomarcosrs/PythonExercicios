@@ -13,6 +13,6 @@ for i in range(0, 5):
                 print(f'Adicionado na posição {c} da lista...')
                 break
             c = c + 1
-
+print(f'{"-=-"*15}')
 print(f'Os valores digitados em ordem foram {lst_numero}')
 
