@@ -215,6 +215,26 @@ Aula 17 – Listas (Parte 1)
       É possível fazer uma lista com range, acredito eu tenha feito similar no exercício 74, porém foi utilizado o método randint em uma tupla.
         valores = [list(range(4, 11))]
 
+Aula 18 – Listas (Parte 2)
+
+    Conceito de listas dentro de listas
+
+    O append funciona de forma diferente, pois estará criando uma cópia da lista original, por exemplo:
+        dados = list()
+        dados.append('Pedro')
+        dados.append(25)
+    Criou-se uma lista chamada de dados, além disso adicionou-se dois itens.
+
+    Para criar o append dessa lista em outra, fazemos:
+        pessoas = list()
+        pessoas.append(dados[:]) -> aqui está gerando um fatiamento completo de dados, gerando uma cópia dessa lista
+    Nesse caso, existirá a lista chamada de "dados" com o nome e a idade nas posições 0 e 1, respectivamente. E a lista pessoas, que na posição 0, constará a lista dados.
+    Pode-se criar uma lista, contendo várias listas dentro de cada posição de uma lista principal.
+
+    Uma forma de criar listas dentro de uma lista é:
+        pessoas = [['Pedro', 25], ['Maria', 19], ['João', 32]]
+    Uma forma de se acessar os itens dentro de listas compostas é trabalhar com os índices, exemplo:
+        print(pessoas[0][0]) -> Vai acessar a lista que está na posição 0, sendo que dentro dessa lista, o item que será recuperado também está na posição 0, logo o terminal vai imprimir 'Pedro'.
 
 
 
